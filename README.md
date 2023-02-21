@@ -23,10 +23,15 @@ Building a model and schema for predicting user churn in a subscription-based se
 **Data Collection**:
 
 > `User demographics` (age, gender, location, etc.)
-> `Subscription` type (monthly, annual, etc.)
-> `Subscription` status (active, canceled, lapsed)
-> `Subscription` start and end dates
+
+> `Subscription type` (monthly, annual, etc.)
+
+> `Subscription status` (active, canceled, lapsed)
+
+> `Subscription start and end dates`
+
 > `User activity on the platform` (frequency of logins, time spent on the platform, features used, etc.)
+
 > `Customer support interactions` (number of tickets submitted, time taken to resolve, etc.)
 
 **Schema**:
