@@ -25,6 +25,10 @@ const userSchema = new mongoose.Schema(
             type: String,
             required: [true, "password is needed"]
         },
+        age: {
+            type: Number,
+
+        },
         created_at: {
             type: Date,
 
